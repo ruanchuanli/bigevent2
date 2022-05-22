@@ -48,7 +48,7 @@ $(function () {
     console.log(1111);
     e.preventDefault();
     $.ajax({
-      type: "get",
+      type: "post",
       url: "/api/login",
       data: $("#form_login").serialize(),
       success: (res) => {
